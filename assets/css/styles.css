@@ -7,8 +7,13 @@ body {
   text-align: center
 }
 
-nav ul {
+#navbar {
+  margin: 0;
+  position: fixed;
   text-align: right;
+}
+
+nav ul {
   position: fixed;
   width: 100%;
   background-color: #ffdab9;
@@ -16,18 +21,18 @@ nav ul {
   height: 60px;
 }
 
-a:link {
+ul li a:link {
   text-decoration: none;
 }
 
-a:hover {
+ul li a:hover {
   color: white;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 15px;
-  margin-right: 100px;
+  margin: 10px;
+  margin-right: 90px;
   margin-bottom: 15px;
   margin-top: 20px;
   font-size: 18px;
@@ -38,13 +43,64 @@ nav ul li a {
 }
 
 #welcome-section {
+  top: 0;
   background-color: #ffdab9;
-  height: 75vh;
-  padding-top: 50vh;
+  height: 65vh;
+  padding-top: 45vh;
+  min-height: 50vh;
 }
 
 #about-section {
-  margin-top: 50px;
-  background-color: blue;
-  padding: 10px;
+  display: inline-block;
+  padding: 30px;
+  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: #f0fff0;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+#projects {
+  background-color: white;
+  width: 80%;
+  display: inline-block;
+}
+
+.project-tile {
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 40px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 250px;
+  height: auto;
+}
+
+.project-tile:hover {
+  box-shadow: 10px 10px 5px white;
+}
+
+.project-pic {
+  width: 100%;
+}
+
+#profile-link {
+  padding: 40px;
+}
+
+#contact-section {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
 }
