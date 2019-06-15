@@ -100,18 +100,26 @@ nav ul li a {
 
 #contact-section {
   padding: 20px;
-  margin-top: 40px;
-  display: inline-block;
+  margin-top: 80px;
+  background-color: #f0fff0;
+  width: 100%;
 }
 
 #contact-section a {
   text-decoration: none;
-  color: black
+  color: black;
+  margin: 10px;
 }
 
 .links {
-  height: 20px;
-  width: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.contact-img {
+  height: 30px;
+  width: auto;
 }
 
 @media only screen and (max-width: 500px) {
