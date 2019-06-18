@@ -2,15 +2,16 @@
   margin: 0;
   border: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Montserrat', 'sans-serif';
 }
 
 body {
+  width: 100%;
   text-align: center;
 }
 
 #navbar {
-  margin: 0;
   text-align: right;
 }
 
@@ -48,7 +49,7 @@ nav ul li a {
   background-color: #ffdab9;
   height: 65vh;
   padding-top: 45vh;
-  min-height: 50vh;
+  min-height: 100vh;
   font-size: 25px;
   font-family: 'Montserrat', 'sans-serif';
 }
@@ -64,7 +65,7 @@ nav ul li a {
   box-shadow: 10px 10px 5px grey;
 }
 
-#projects {
+.projects {
   background-color: white;
   width: 60%;
   display: inline-block;
