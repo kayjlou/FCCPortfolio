@@ -72,16 +72,21 @@ nav ul li a {
 }
 
 .project-tile {
-  box-shadow: 10px 10px 5px grey;
+  /* box-shadow: 10px 10px 5px grey; */
   margin: 40px 20px 20px;
   display: inline-block;
   width: 250px;
   height: 220px;
-  border: 3px solid #ffdab9
+  border: 3px solid #ffdab9;
+  transition: all 0.25s ease-in-out;
 }
 
 .project-tile:hover {
-  box-shadow: 10px 10px 5px white;
+  /* box-shadow: 10px 10px 5px white; */
+  position: relative;
+  transform: translateY(6px);
+  box-shadow: 0 5px 5px 0 #1c1c1c;
+  transition: all 0.25s ease-in-out;
 }
 
 .project-title {
@@ -96,8 +101,8 @@ nav ul li a {
 
 .img-wrap {
   position: relative;
-  height: auto;
-  width: 100%;
+  height: 200px;
+  width: 200px;
 }
 
 p.description {
