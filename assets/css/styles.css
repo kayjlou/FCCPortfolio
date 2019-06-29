@@ -95,7 +95,9 @@ nav ul li a {
 }
 
 .project-pic {
-  width: 100%;
+  width: 244px;
+  height: 160px;
+  /* width: 100%; */
   border-bottom: 4px solid #ffdab9;
 }
 
