@@ -1,2 +1,2 @@
-# FCCPortfolio
-Personal Portfolio for Free Code Camp certification
+#MyPortfolio
+Personal Portfolio in progress
